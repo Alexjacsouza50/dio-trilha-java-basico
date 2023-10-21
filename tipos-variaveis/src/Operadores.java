@@ -1,26 +1,20 @@
 public class Operadores {
     public static void main(String[] args) {
-        String concatenacao ="?"; 
-
-        concatenacao = 1+1+1+"1";
-
-
-        System.out.println(concatenacao);
-
-        concatenacao = 1+"1"+1+1;
-
-        System.out.println(concatenacao);
+        boolean condiçao1=true;
         
-        concatenacao = 1+"1"+1+"1";
+        boolean condiçao2=true;
 
-        System.out.println(concatenacao);
-        
-        concatenacao = "1"+1+1+1;
+        if(condiçao1 && condiçao2){
+            System.out.println("as duas condiçoes sao verdadeiras");
+        }
 
-        System.out.println(concatenacao);
-        
-        concatenacao = "1"+(1+1+1);
-
-        System.out.println(concatenacao);
+         if(condiçao1 || condiçao2){
+            System.out.println("uma das duas condiçoes sao verdadeiras");
+         }
+            
+          
+        System.out.println("fim");
     } 
-}
+}   
+    
+
